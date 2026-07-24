@@ -1,0 +1,36 @@
+{
+  "name": "wskbot",
+  "version": "3.2.1",
+  "description": "WSK BOT 3.2.1 — iOS audio/config, sharp Termux, salas FF.",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "start:manual": "node start.js",
+    "postinstall": "node database/utils/patchBaileys.js && node database/utils/ensureSharp.js",
+    "patch:baileys": "node database/utils/patchBaileys.js",
+    "sharp:termux": "npm install --cpu=wasm32 sharp --no-save"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.0",
+    "@itsukichan/baileys": "npm:@innovatorssoft/baileys@7.4.4",
+    "adm-zip": "^0.5.16",
+    "axios": "^1.12.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.1.2",
+    "ffmpeg-static": "^5.2.0",
+    "figlet": "^1.11.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.2",
+    "fs-extra": "^11.2.0",
+    "jimp": "^0.22.12",
+    "node-fetch": "^2.7.0",
+    "node-webpmux": "^3.2.1",
+    "pdfkit": "^0.17.1",
+    "pino": "^10.1.0",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.34.5",
+    "uuid": "^13.0.0"
+  },
+  "author": "@alissuwsk",
+  "license": "ISC"
+}

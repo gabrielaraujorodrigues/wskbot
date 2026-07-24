@@ -1,0 +1,36 @@
+{
+  "🥉 Bronze": {
+    "price": 5.9,
+    "duration": 7
+  },
+  "🥈 Prata": {
+    "price": 9.9,
+    "duration": 15
+  },
+  "🥇 Ouro": {
+    "price": 14.9,
+    "duration": 30
+  },
+  "💎 Diamante": {
+    "price": 24.9,
+    "duration": 60
+  },
+  "👑 Master": {
+    "price": 34.9,
+    "duration": 90
+  },
+  "⚡ God": {
+    "price": 44.9,
+    "duration": 120
+  },
+  "systemControl": {
+    "habilitado": {
+      "valor": false,
+      "descricao": "Sistema ativo?"
+    },
+    "permitirAlugueisManuais": {
+      "valor": false,
+      "descricao": "Permitir aluguéis manuais?"
+    }
+  }
+}

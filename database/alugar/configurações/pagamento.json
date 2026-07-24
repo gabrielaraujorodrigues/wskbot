@@ -1,0 +1,8 @@
+{
+  "mercado_pago": {
+    "token": "SEU TOKEN AQUI",
+    "cpf": "SEU CPF AQUI",
+    "email": "SEU EMAIL AQUI",
+    "client_id": "SEU CLIENT ID AQUI"
+  }
+}

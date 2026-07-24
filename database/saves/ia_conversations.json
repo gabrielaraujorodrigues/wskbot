@@ -1,0 +1,9 @@
+{
+  "conversations": {},
+  "settings": {
+    "maxHistoryPerUser": 10,
+    "contextWindow": 5,
+    "autoCleanup": true,
+    "cleanupDays": 7
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "totalQuestions": 0,
+  "totalUsers": 0,
+  "questionsToday": 0,
+  "lastResetDate": "2026-06-03",
+  "topUsers": {},
+  "popularCommands": {
+    "ia": 0,
+    "gpt": 0,
+    "mention": 0,
+    "wsk": 0
+  }
+}
